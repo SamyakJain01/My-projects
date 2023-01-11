@@ -1,0 +1,148 @@
+body{
+    padding: 5%;
+    position: relative;
+
+}
+.nav{
+    text-align: center ;
+}
+.front-page{
+    text-align: center;
+    background-color:#C0EEE4;
+}
+.t1{
+    color: #576F72;
+}
+.front-page .heading{
+    color: #000000 ;
+}
+.title-p{
+    font-size: 10rem;
+    padding-top: 3%;
+}
+.description{
+    padding-top: 5%;
+
+    text-align: left;
+}
+@media (max-width : 426px) {
+    .description{
+        padding-top: 5%;
+        padding-right:0%;
+        text-align: center;
+    } 
+}
+@media (max-width : 426px) {
+    .title-p{
+        font-size:5rem;
+    } 
+}
+@media (max-width : 319px) {
+    .title-p{
+        font-size:2rem;
+    } 
+}
+@media (max-width : 768px) {
+    .description{
+        padding-top: 5%;
+        margin-right:0%;
+        text-align: center;
+    } 
+}
+@media (max-width : 768px) {
+    .title-p{
+        font-size: 7rem;
+    } 
+}
+.title{
+    
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.card:hover{
+    background-color: lightcyan;
+}
+.second-page{
+    padding-top: 5%;
+}
+.card{
+    padding: 5% 15%;
+    text-align: center;
+    height: 30rem;
+}
+.card-padding{
+    padding: 5%;
+}
+.card-title{
+    padding-top: 20px;
+}
+.heading{
+    
+    font-size: 10rem;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.about-me{
+
+    margin: 5%;
+    margin-right: 30%;
+    margin-left: 30%;
+
+}
+.bttn{
+
+    padding-top: 2%;
+    margin: 3%;
+}
+.card-title{
+    padding-left: 10px;
+}
+@media (max-width : 426px) {
+
+    .heading{
+        font-size: 5rem;
+    }
+
+}   
+@media (max-width : 1440px){
+    .front-page{
+        text-align: center;
+    }
+    
+}
+.nav-item{
+    padding-left: 0%;
+}
+footer {
+    height: 12rem;
+    padding: 4% ;
+    text-align: center;
+    outline: none;
+    background-color: #C0EEE4;;
+}
+.des{
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 15%;
+}
+a{
+    padding-left: 3%;
+    
+}
+.big{
+    font-size: 4rem;
+    text-align: center;
+}
+.img-evidence {
+
+    height: 300px;
+    width: 300px;
+    padding: 2%;
+    display: inline-block  
+
+}
+.img-{
+    width: 400px;
+    height: 300px;
+}
